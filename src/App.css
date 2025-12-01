@@ -1,0 +1,103 @@
+#root {
+  /* max-width: 1280px; */
+  margin: 0 auto;
+  /* font-family: "Bricolage Grotesque", sans-serif; */
+  font-family: "Montserrat", sans-serif;
+  scroll-behavior: smooth;
+
+}
+
+.slick-slider {
+  width: 1090px;
+  height: 380px;
+  margin: auto;
+  margin-top: 12px;
+  position: relative;
+}
+
+.slick-dots{
+  transform: translateY(-17px);
+  color: red;
+}
+
+
+.img-size {
+  width: 1090px;
+  height: 380px;
+  /* margin-top: -25px; */
+  border-radius: 12px;
+}
+
+
+.header-slider .slick-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  cursor: pointer;
+}
+
+.header-slider .slick-prev {
+  left: 15px;
+}
+
+.header-slider .slick-next {
+  right: 49px;
+}
+
+.header-slider .slick-prev::before {
+  font-size: 40px;
+}
+
+.header-slider .slick-next::before {
+  font-size: 40px;
+}
+
+
+.footer-a {
+  text-decoration: none;
+  color: rgb(65, 77, 88);
+  font-size: 18px;
+}
+
+.footer-a:hover {
+  color: rgb(4, 4, 161);
+}
+
+.reklama-overlay {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(6, 10, 18, 0.55);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  z-index: 999;
+}
+
+.reklama-card {
+  max-height: 597px;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 10px;
+  background-color: #2d303f;
+}
+
+.reklama-close {
+  position: fixed;
+  font-size: 26px;
+  border-radius: 22%;
+  transform: translate(593px, 8px);
+}
+
+.login-form {
+  width: 360px;
+  height: 310px;
+  margin: 0 auto;
+  border-radius: 12px;
+  border: 1px solid gray;
+  border: none;
+  margin-top: 50px;
+  box-shadow: 0.5px 1px 5px 1px rgb(187, 191, 195);
+}
