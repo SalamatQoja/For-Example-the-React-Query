@@ -18,12 +18,11 @@ export default function ShowReklama({
 }: Props) {
     const [visible, setVisible] = useState(false);
     const timerRef = useRef<number | null>(null);
-    const rafRef = useRef<number | null>(null);
+    // const rafRef = useRef<number | null>(null);
     const firstInputRef = useRef<HTMLInputElement | null>(null);
     const overlayRef = useRef<HTMLDivElement | null>(null);
-    const [loading, setLoading] = useState(false);
     const closeTimerRef = useRef<number | null>(null);
-    const autoHideMs = 4000;
+    // const autoHideMs = 4000;
 
 
     useEffect(() => {

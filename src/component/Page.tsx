@@ -8,7 +8,7 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
-import { Container, Pagination, PaginationItem } from "@mui/material";
+import { Pagination, PaginationItem } from "@mui/material";
 import picture from "../assets/study.jpg";
 
 export function KnowledgePage() {
